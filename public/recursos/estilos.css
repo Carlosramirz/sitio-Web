@@ -1,0 +1,8 @@
+.fondo-index{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./img/fondojpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
