@@ -4,22 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Carlosramirz/sitio-Web.git"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Carlosramirz/sitio-Web/issues"
-  },
-  "homepage": "https://github.com/Carlosramirz/sitio-Web#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "pg": "^8.8.0",
-    "sequelize": "^6.25.5"
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
